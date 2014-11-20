@@ -17,26 +17,26 @@
         <property id="color" type="Color" title="Color" group="Display" />
         <property id="lineSize" type="String" title="Size" group="Display">
         	<possibleValue>1</possibleValue>
-    			<possibleValue>2</possibleValue>
-    			<possibleValue>3</possibleValue>
-    			<possibleValue>4</possibleValue>
-    			<possibleValue>5</possibleValue>
-    			<possibleValue>6</possibleValue>
-    			<possibleValue>7</possibleValue>
-    			<possibleValue>8</possibleValue>
-    			<possibleValue>9</possibleValue>
-    			<possibleValue>10</possibleValue>
-    		</property>
+    		<possibleValue>2</possibleValue>
+    		<possibleValue>3</possibleValue>
+    		<possibleValue>4</possibleValue>
+    		<possibleValue>5</possibleValue>
+    		<possibleValue>6</possibleValue>
+    		<possibleValue>7</possibleValue>
+    		<possibleValue>8</possibleValue>
+    		<possibleValue>9</possibleValue>
+    		<possibleValue>10</possibleValue>
+    	</property>
         <property id="arrow" type="boolean" title="Arrow" group="Display" />
         <property id="direction" type="String" title="Direction" group="Display">      
 	        <possibleValue>Left-Right</possibleValue>
-			<possibleValue>Right-Left</possibleValue>
-		</property>
-		<property id="bendType" type="String" title="Bend Type" group="Display">      
+		<possibleValue>Right-Left</possibleValue>
+	</property>
+	<property id="bendType" type="String" title="Bend Type" group="Display">      
 	        <possibleValue>Top</possibleValue>
-			<possibleValue>Middle</possibleValue>
-			<possibleValue>Bottom</possibleValue>
-		</property>
+		<possibleValue>Middle</possibleValue>
+		<possibleValue>Bottom</possibleValue>
+	</property>
         
         <initialization>
             <defaultValue property="WIDTH">100</defaultValue>
